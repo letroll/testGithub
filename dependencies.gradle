@@ -1,0 +1,25 @@
+ext {
+    googleLibsVersion = '23.0.0'
+    rxAndroidVersion = '0.25.0'
+    rxJavaVersion = '1.0.13'
+    rxKotlinVersion = '0.22.12'
+    okhttpVersion = '2.2.0'
+    retrofitVersion = '1.9.0'
+    play_servicesVersion = '7.5.0'
+
+    library = [
+            support:"com.android.support:support-v4:$googleLibsVersion",
+            appcompat:"com.android.support:appcompat-v7:$googleLibsVersion",
+            recyclerview:"com.android.support:recyclerview-v7:$googleLibsVersion",
+            cardview:"com.android.support:cardview-v7:$googleLibsVersion",
+            design:"com.android.support:design:$googleLibsVersion",
+            play_services:"com.google.android.gms:play-services:$play_servicesVersion",
+
+            okhttp:"com.squareup.okhttp:okhttp:$okhttpVersion",
+            okhttp_urlconnection:"com.squareup.okhttp:okhttp-urlconnection:$okhttpVersion",
+            retrofit:"com.squareup.retrofit:retrofit:$retrofitVersion",
+
+            rxjava:"io.reactivex:rxjava:$rxJavaVersion",
+            rxandroid:"io.reactivex:rxandroid:$rxAndroidVersion",
+            rxkotlin:"io.reactivex:rxkotlin:$rxKotlinVersion"]
+}
