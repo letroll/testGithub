@@ -10,9 +10,9 @@ ext {
     library = [
             support:"com.android.support:support-v4:$googleLibsVersion",
             appcompat:"com.android.support:appcompat-v7:$googleLibsVersion",
+            design:"com.android.support:design:$googleLibsVersion",
             recyclerview:"com.android.support:recyclerview-v7:$googleLibsVersion",
             cardview:"com.android.support:cardview-v7:$googleLibsVersion",
-            design:"com.android.support:design:$googleLibsVersion",
             play_services:"com.google.android.gms:play-services:$play_servicesVersion",
 
             okhttp:"com.squareup.okhttp:okhttp:$okhttpVersion",
